@@ -1,20 +1,70 @@
-### افضل السورسات
+<h1 align="center"><b>𝑺𝑼𝑶𝑹𝑪𝑬 𝑩𝑬𝑴𝑩𝑶 ¦ 🧨</b></h1>
 
-### اهلا بك في سورس كوبرا ممنوع اخد اي ملف في رقبتك ليوم الدين ولن اسامح
+<p align="center">
+    <br><b>يدعم تشغيل الموسيقي والفديو داخل المحادثات الصوتية</b><br>
+</p>
+<p align="center">
+    <a href="https://www.python.org/" alt="اللغة المستخدمة"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
+</p>
+## 🧪الحصول علي جلسة البيوجرام:
 
-<p align="center"><a href="https://t.me/faqek"><img src="https://telegra.ph/file/8dd5ef5b8ea6b2f4dbe95.jpg"></a></p>
+[![جلسة بيوجرام](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@levinalab/StringSession#main.py) ``TAELR``
+
+## 𝑺𝑼𝑶𝑹𝑪𝑬 𝑩𝑬𝑴𝑩𝑶
+<p align="center">
+  <img src="https://telegra.ph/file/e68855e3be3191ca84624.jpg">
+</p>
+
+## ✨ المميزات
+- يدعم تشغيل الفديو والموسيقي في المحادثة
+- يدعم المحادثات المتعددة
+- قائمه الانتظار مدعم
+- تخطي وتوقف واستمرار مدعم
+- يدعم تحميل فديو وصوت 
+- يدعم البحث انلاين
+- يدعم البحث المباشر من يوتيوب
+- يدعم البث الحي من يوتيوب
+- يدعم التحكم عن طريق الازرار
+- يدعم التحكم بالصوت
+- يدعم الدخول التلقائي للبوت المساعد
+- تحديث مباشر
+
+## 🛠 الاوامر:
+| الاوامر | الوصف |
+| ------ | ------ |
+| `/mplay (اسم الاغنيه)` | تشغيل أغنية من يوتيوب |
+| `/vplay (اسم الفديو)` | لتشغيل فديو من يوتيوب |
+| `/vstream (لينك البث)` | لتشغيل بث حي فديو|
+| `/pause` | لايقاف التشغيل ادمن فقط |
+| `/resume` | لاستكمال التشغيل ادمن فقط |
+| `/skip` | لتخطي الاغنيه ادمن فقط |
+| `/stop` | لانهاء العرض ادمن فقط |
+| `/vmute` | لكتم البوت المساعد |
+| `/vunmute` | لالغاء كتم البوت المساعد |
+| `/volume 1/200` | للتحكم في الصوت  |
+| `/playlist` | لرؤية قائمة الاغاني |
+| `/song (اسم الاغنيه)` | لتحميل اغنية |
+| `/video (اسم الفديو)` | لتحميل فديو |
+| `/userbotjoin` | لدعوة البوت المساعد |
+| `/userbotleave` | لمغادرة البوت المساعد |
+| `/leaveall` | خروج جميع المجموعات للمطور فقط |
+| `/update` | تحديث البوت للمطور فقط |
+| `/restart` | للمطور فقط اعاده تشغيل البوت |
+| `/clean` | مسح جميع الملفات |
+| `/rmd` | مسح جميع الملفات المحمله |
 
 
-### التنصيب عبر هيروكو
-
-[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ERTWF/UUOUU)
+[![تشغيل](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/soursafyona/bonnU)
 
 
 
-### استخراج جلسة بايروجرام
-
-[![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://t.me/TYWEROAbot)
-
-### تابع قناة السورس لتلقي جميع السورسات المجانيه [كوبرا](https://t.me/VFF35)
 
 
+
+## قناة التحديثات والدعم¦🐰
+<a href="https://t.me/B_e_m_0"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/UUBU0"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+
+
+
+مطــــــــور السورس ¦🦦
+<a href="https://t.me/O1BOO"><img src="https://img.shields.io/badge/Dev%20AFYONa-blue.svg?style=for-the-badge&logo=AFYONA"></a> <a href="https://t.me/UUF8U"><img src="https://img.shields.io/badge/يـــــوزرات افيـــونا-blue.svg?style=for-the-badge&logo=AFYONA"></a> <a href="https://t.me/IVNII"><img src="https://img.shields.io/badge/AFUONA2-blue.svg?style=for-the-badge&logo=AFYONA"></a>
