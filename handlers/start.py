@@ -20,7 +20,7 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🐥 اضف البوت 🐥", url=f"https://t.me/{bu}?startgroup=true"
+                        "🐥 اضف البوت لمجموعتك 🐥", url=f"https://t.me/{bu}?startgroup=true"
                        ),
                   ],[
                     InlineKeyboardButton(
@@ -31,7 +31,7 @@ async def start_(client: Client, message: Message):
                     )
                 ],[
                     InlineKeyboardButton(
-                        " 🖥 ¦ الأوامــر ", ", url=f"https://telegra.ph/%F0%9D%99%B2%E1%B4%8F%E1%B4%8D%E1%B4%8D%E1%B4%80%C9%B4%E1%B4%85s-04-06"
+                        " 🖥 ¦ الأوامــر ", url=f"https://telegra.ph/%F0%9D%99%B2%E1%B4%8F%E1%B4%8D%E1%B4%8D%E1%B4%80%C9%B4%E1%B4%85s-04-06"
                     ),
                     InlineKeyboardButton( 
                     ),
