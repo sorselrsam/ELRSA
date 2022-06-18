@@ -15,12 +15,12 @@
       "required": true
     },
     "BOT_NAME": {
-      "description": "معرف بوتك مره تانيه بدون @",
+      "description":" معرف بوتك @",
       "required": false,
       "value": ""
     },
     "BOT_USERNAME": {
-      "description": " معرف بوتك بدون @",
+      "description": " معرف بوتك مره تانيه بدون @",
       "required": false,
       "value": ""
     },
@@ -48,11 +48,11 @@
       "value": "5520469387"
     },
     "START_IMG": {
-      "description": "ضع صورة البوت",
+      "description": "ضع صورة البوت مره تانيه",
       "required": false
     },
     "PING_IMG": {
-      "description": "ضع صورة البوت مره تانيه",
+      "description": "ضع صورة البوت",
       "required": false
     },
     "PMPERMIT": {
