@@ -200,14 +200,14 @@ async def play(_, message: Message):
     if int(chat_id) in ACTV_CALLS:
         position = await queues.put(chat_id, file=file_path)
         await message.reply_text(
-               text=f"**ㅤㅤㅤ» تم التشغيل «**\n💃 **الاسم​:** [{title[:65]}]({url})\n🕕 **عدد دقائق:** `{duration}` الاغنية\n🦦 **مطلوبة بواسطة​:** {chumtiya}\n🕴 **الدردشة​:** `{message.chat.title}`\n🐰 **نوع التشغيل:** موسيقى\n",
+               text=f"**ㅤㅤㅤ» 🐥 تم التشغيل ياحبي «**\n💃 **الاسم​:** [{title[:65]}]({url})\n🕕 **عدد دقائق:** `{duration}` الاغنية\n🦦 **مطلوبة بواسطة​:** {chumtiya}\n🕴 **الدردشة​:** `{message.chat.title}`\n🐰 **نوع التشغيل:** موسيقى\n",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("• كروب الدعم •", url=f"https://t.me/{SUPPORT_GROUP}"),
-                    InlineKeyboardButton("• قناة البوت •", url=f"https://t.me/VFF35")
+                    InlineKeyboardButton(" ☣️ ¦ الدعم ", url=f"https://t.me/{SUPPORT_GROUP}"),
+                    InlineKeyboardButton(" 🧨 ¦ قناة السـورس ", url=f"https://t.me/B_e_m_0")
                 ],
-                [InlineKeyboardButton("» اخفاء الكليشه «", callback_data="close_play")
+                [InlineKeyboardButton(" ⚙️ ¦ اخفاء ", callback_data="close_play")
                 ],
             ]
         ),
@@ -229,10 +229,10 @@ async def play(_, message: Message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(" ☣️¦جـروب الدعم ", url=f"https://t.me/{SUPPORT_GROUP}"),
-                    InlineKeyboardButton("  🧨¦قـناة البوت ", url=f"https://t.me/UUBU0")
+                    InlineKeyboardButton(" ☣️ ¦ الدعم ", url=f"https://t.me/{SUPPORT_GROUP}"),
+                    InlineKeyboardButton(" 🧨 ¦ قـناة السـورس ", url=f"https://t.me/UUBU0")
                 ],
-                [InlineKeyboardButton("» ⚙️¦اخفاء  «", callback_data="close_play")
+                [InlineKeyboardButton(" ⚙️ ¦ اخفاء  ", callback_data="close_play")
                 ],
             ]
         ),
