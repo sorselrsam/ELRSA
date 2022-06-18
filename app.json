@@ -1,13 +1,13 @@
 {
-  "name": "سورس كوبرا",
-  "logo": "https://telegra.ph/file/bb36322c9de65156bd04e.jpg",
+  "name": "سورس بــــيــــــمبو",
+  "logo": "https://telegra.ph/file/107ec28d1cf6e2728d0bb.jpg",
   "description": "A SuperFast VC Player bot to play songs in Telegram Video Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram", "fallen"],
-  "repository": "https://github.com/ERTWF/UUOUU",
+  "repository": "https://github.com/soursafyona/bonnU",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
-      "description": "ضع كود بايروجرام حبيبي",
+      "description": "ضع كود بايروجرام",
       "required": true
     },
     "BOT_TOKEN": {
@@ -33,19 +33,19 @@
       "required": false
     },
     "OWNER_USERNAME": {
-      "description": "معرفك كمطور البوت بدون @",
+      "description": "معرف مطور البوت بدون @",
       "required": false,
-      "value": "QABNADLIB"
+      "value": "O1BOO"
     },
     "SUPPORT_GROUP": {
-      "description": "معرف كروبك بدون @",
+      "description": "معرف جروبك بدون @",
       "required": false,
-      "value": "faqek"
+      "value": "UUBU0"
     },
     "SUDO_USERS": {
-      "description": "ضع ايديك ياغالي.",
+      "description": "ضع ايدي بتاعك",
       "required": true,
-      "value": ""
+      "value": "5520469387"
     },
     "START_IMG": {
       "description": "ضع صورة البوت",
@@ -56,12 +56,12 @@
       "required": false
     },
     "PMPERMIT": {
-      "description": "عوفها لاتلعب بيها",
+      "description": "لا تغيرها",
       "required": false,
       "value": "ENABLE"
     },
     "DURATION_LIMIT": {
-      "description": "هم عوفها لاتلعب بشي تحياتي لك المبرمج سيف كوبرا",
+      "description": "لا تغيرها",
       "required": false,
       "value": "90"
     }
