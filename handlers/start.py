@@ -12,29 +12,30 @@ async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{START_IMG}",
         caption=f"""**━━━━━━━━━━━━━━━━━━
- هلا بك انا بوت يمكنني تشغيل الاغاني في المكالمه
+ مرحبا انا بوت يمكنني تشغيل الاغاني في المكالمه
 اضغط على زر الاوامر لمعرفة طريقة التشغيل 
-تم اصدار هذا البوت من قناة سورس كوبرا تابعنا هنا [قناة السورس](t.me/VFF35)...
+تم اصدار هذا البوت من قناة سورس بـــيـــمبو تابعنا هنا [قناة السورس](t.me/UUBU0)...
 ━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ اضف البوت ➕", url=f"https://t.me/{bu}?startgroup=true"
+                        "🐥 اضف البوت 🐥", url=f"https://t.me/{bu}?startgroup=true"
                        ),
                   ],[
                     InlineKeyboardButton(
-                        "• قناة البوت •", url=f"https://t.me/VFF35"
+                        " 🦦 ¦ قناه السورس ", url=f"https://t.me/UUBU0"
                     ),
                     InlineKeyboardButton(
-                        "• كروب الدعم •", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "  ☣️ ¦ جـروب الدعم ", url=f"https://t.me/{SUPPORT_GROUP}"
                     )
                 ],[
                     InlineKeyboardButton(
-                        "• الاوامر •", url=f"https://telegra.ph/%D8%A7%D9%87%D9%84%D8%A7-%D8%A8%D9%83-%D8%A7%D9%88%D8%A7%D9%85%D8%B1-%D8%A7%D9%84%D8%A8%D9%88%D8%AA-%D8%B9%D8%B1%D8%A8%D9%8A%D9%87-06-08"
+                        " 🖥 ¦ الأوامــر ",("callback_data="cbcmnds"),
+                    InlineKeyboardButton( 
                     ),
                     InlineKeyboardButton(
-                        "• مطور السورس •", url="https://t.me/QABNADLIB"
+                        " 🧨 ¦ مطور السورس ", url="https://t.me/O1BOO"
                     )]
             ]
        ),
