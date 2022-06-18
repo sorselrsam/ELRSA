@@ -37,7 +37,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-@Client.on_message(command(["ping", "repo", "anon", "alive"]) & filters.group & ~filters.edited & ~filters.private)
+@Client.on_message(command(["ping", "repo", "بينج", "alive"]) & filters.group & ~filters.edited & ~filters.private)
 
 async def help(client: Client, message: Message):
     await message.delete()
@@ -60,10 +60,10 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🐰¦ جـروب الدعم ", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "🐰 ¦ جـروب الدعم ", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                     InlineKeyboardButton(
-                        " 🦦¦ قنــاة البـوت ", url="https://t.me/B_e_m_0"
+                        " 🦦 ¦ قنــاة البـوت ", url="https://t.me/B_e_m_0"
                     )
                 ]
             ]
