@@ -31,7 +31,7 @@ async def resume(_, message: Message):
     await message.reply_text("**» ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ sᴜᴄᴄᴇsғᴜʟʟʏ ʀᴇsᴜᴍᴇᴅ...**".format( message.from_user.mention ), )
 
 
-@Client.on_message(command(["end", "ايقاف"]) & other_filters)
+@Client.on_message(command(["end", "ايقاف", "اسكت"]) & other_filters)
 @errors
 @authorized_users_only
 async def stop(_, message: Message):
@@ -42,7 +42,7 @@ async def stop(_, message: Message):
 
     await message.delete()
     await callsmusic.pytgcalls.leave_group_call(message.chat.id)
-    await message.reply_text("**» ادري انو حلمك توقف بوت بس ابشر...**".format(
+    await message.reply_text("🐰**»حاضر هسكت...**".format(
       message.from_user.mention ), )
 
 @Client.on_message(command(["تخطي", "next"]) & other_filters)
@@ -55,7 +55,7 @@ async def skip(_, message: Message):
     for x in callsmusic.pytgcalls.active_calls:
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALLS:
-        await message.reply_text("**» ابشر تم التخطي للمسار التالي...**")
+        await message.reply_text("🐥**» تم التخطي للمسار التالي...**")
     else:
         queues.task_done(chat_id)
         
