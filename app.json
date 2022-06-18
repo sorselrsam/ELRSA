@@ -32,7 +32,12 @@
       "description": "ايبي هاش ضع هنا my.telegram.org/apps",
       "required": false
     },
-    "OWNER_USERNAME": {
+    "ASSISTANT_NAME": {
+            "description": "قم بوضع يوزر الحساب المساعد بدون علامة @",
+            "required": true,
+            "value": "AFYONA_MUSIC0" 
+     }, 
+     "OWNER_USERNAME": {
       "description": "معرف مطور البوت بدون @",
       "required": false,
       "value": "O1BOO"
