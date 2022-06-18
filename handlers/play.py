@@ -55,7 +55,7 @@ async def play(_, message: Message):
 
     await message.delete()
 
-    fallen = await message.reply("جاري البحث\n\n0% ▓▓▓▓▓▓▓▓▓▓▓▓ 100%")
+    fallen = await message.reply("يتم التحميل \n\n0% ▓▓▓▓▓▓🐥▓▓▓▓▓▓ 100%")
 
     chumtiya = message.from_user.mention
 
@@ -94,7 +94,7 @@ async def play(_, message: Message):
         await USER.get_chat(chid)
     except Exception as e:
         await fallen.edit(
-            f"<i>» تعذر التشغيل تأكد ان حساب المساعد داخل الدردشة.</i>\n\nʀᴇᴀsᴏɴ : {e}")
+            f"<i>» تعذر التشغيل تأكد ان الحساب المساعد انضم داخل الدردشة.</i>\n\nʀᴇᴀsᴏɴ : {e}")
         return
     
     audio = (
@@ -200,7 +200,7 @@ async def play(_, message: Message):
     if int(chat_id) in ACTV_CALLS:
         position = await queues.put(chat_id, file=file_path)
         await message.reply_text(
-               text=f"**ㅤㅤㅤ» تم التشغيل يغالي «**\n📌 **الاسم​:** [{title[:65]}]({url})\n🕕 **عدد دقائق:** `{duration}` الاغنية\n💕 **مطلوبة بواسطة​:** {chumtiya}\n💔 **الدردشة​:** `{message.chat.title}`\n🎥 **نوع التشغيل:** موسيقى\n",
+               text=f"**ㅤㅤㅤ» تم التشغيل «**\n💃 **الاسم​:** [{title[:65]}]({url})\n🕕 **عدد دقائق:** `{duration}` الاغنية\n🦦 **مطلوبة بواسطة​:** {chumtiya}\n🕴 **الدردشة​:** `{message.chat.title}`\n🐰 **نوع التشغيل:** موسيقى\n",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -225,14 +225,14 @@ async def play(_, message: Message):
             )
 
         await message.reply_text(
-            text=f"**ㅤㅤㅤ» تم التشغيل يغالي «**\n📌 **الاسم​:** [{title[:65]}]({url})\n🕕 **عدد دقائق:** `{duration}` الاغنية\n💕 **مطلوبة بواسطة​:** {chumtiya}\n💔 **الدردشة​:** `{message.chat.title}`\n🎥 **نوع التشغيل:** موسيقى\n",
+            text=f"**ㅤㅤㅤ» تم التشغيل «**\n💃 **الاسم​:** [{title[:65]}]({url})\n🕕 **عدد دقائق:** `{duration}` الاغنية\n🦦 **مطلوبة بواسطة​:** {chumtiya}\n🕴 **الدردشة​:** `{message.chat.title}`\n🐰 **نوع التشغيل:** موسيقى\n",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("• كروب الدعم •", url=f"https://t.me/{SUPPORT_GROUP}"),
-                    InlineKeyboardButton("• قناة البوت •", url=f"https://t.me/VFF35")
+                    InlineKeyboardButton(" ☣️¦جـروب الدعم ", url=f"https://t.me/{SUPPORT_GROUP}"),
+                    InlineKeyboardButton("  🧨¦قـناة البوت ", url=f"https://t.me/UUBU0")
                 ],
-                [InlineKeyboardButton("» اخفاء الكليشه «", callback_data="close_play")
+                [InlineKeyboardButton("» ⚙️¦اخفاء  «", callback_data="close_play")
                 ],
             ]
         ),
