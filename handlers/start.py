@@ -31,7 +31,7 @@ async def start_(client: Client, message: Message):
                     )
                 ],[
                     InlineKeyboardButton(
-                        " 🖥 ¦ الأوامــر ",("callback_data="cbcmnds"),
+                        " 🖥 ¦ الأوامــر ", callback_data="cbcmnds"),
                     InlineKeyboardButton( 
                     ),
                     InlineKeyboardButton(
