@@ -26,7 +26,7 @@ async def pmPermit(client: USER, message: Message):
                         " 🐥 ¦ ᵇᵒᵗ ᵇᵉᵐᵇᵒ ", url=f"https://t.me/{lel}"
                     ),
                     InlineKeyboardButton(
-                        " 🦦¦جـروب الدعم ", url="https://t.me/UUBU0"
+                        " 🦦 ¦ جـروب الدعم ", url="https://t.me/UUBU0"
                     )
                 ],[ 
                     InlineKeyboardButton(
