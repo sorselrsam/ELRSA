@@ -23,14 +23,14 @@ async def pmPermit(client: USER, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "• ʙᴏᴛ •", url=f"https://t.me/{lel}"
+                        " 🐥¦ʙᴏᴛ ", url=f"https://t.me/{K61TBot}"
                     ),
                     InlineKeyboardButton(
-                        "• كروب الدعم •", url="https://t.me/faqek"
+                        " 🦦¦جـروب الدعم ", url="https://t.me/UUBU0"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "• قناة البوت •", url=f"https://t.me/VFF35"
+                        " ☢️ ¦قناة البوت ", url=f"https://t.me/B_e_m_0"
                     )]
             ]
         ),
