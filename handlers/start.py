@@ -40,3 +40,54 @@ async def start_(client: Client, message: Message):
        ),
     )
 
+@Client.on_message(command(["برمج السورس", f"ؤمن", f"ورس", f"لسورس", f"ونا", f"افيونا"]) & filters.group & ~filters.edited)
+async def start(client: Client, message: Message):
+    await message.reply_photo(
+        photo=f"https://telegra.ph/file/107ec28d1cf6e2728d0bb.jpg",
+        caption=f""" 𝑺𝑶𝑼𝑹𝑪𝑬 𝑩𝑬𝑴𝑩Θ """,
+        reply_markup=InlineKeyboardMarkup(
+         [
+            [
+                InlineKeyboardButton("افـ ـيـ ـونـ ـا بــــ ــاشـــ ــا🇪🇬!", url=f"https://t.me/O1BOO"),
+            ],
+            [
+                InlineKeyboardButton(
+                    "𝑩𝑬𝑴𝑩Θ 𝐌𝐔𝐒𝐈𝐂🐥", url=f"https://t.me/B_e_m_0"
+                ),
+            ],
+            [
+                InlineKeyboardButton("🐥اضف البوت الى مجموعتك🐥", url=f"https://t.me/K61TBot?startgroup=true"),
+            ]
+         ]
+     )
+  )
+
+@Client.on_message(command(["لمطور", "طور"]) & filters.group & ~filters.edited)
+async def help(client: Client, message: Message):
+    await message.reply_photo(
+        photo=f"{DEV_PHOTO}",
+        caption=f""" الاول: هو مطور السورس🐥 \n الثاني: مطور البوت🐥 \n√""",
+        reply_markup=InlineKeyboardMarkup(
+         [
+            [
+                InlineKeyboardButton("افـ ـيـ ـونـ ـا بــــ ــاشـــ ــا🇪🇬!", url=f"https://t.me/O1BOO"),
+            ],
+            [
+                InlineKeyboardButton(
+                        DEV_NAME, url=f"https://t.me/{OWNER_NAME}"
+                ),
+            ],
+            [
+                InlineKeyboardButton("🐥ضيـف البـوت لمجمـوعتـك🐥", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+            ]
+         ]
+     )
+  )
+
+@Client.on_message(command(["لب التوكن", f"لب_التوكن", "bemo"]) & filters.private & ~filters.edited)
+@sudo_users_only
+async def shadow(c: Client, message: Message):
+    start = time()
+    m_reply = await message.reply_text("انتظر من فضلك...")
+    BOT_TOKEN = time() - start
+    await m_reply.edit_text(f"**تم جلب التوكن**\n`{BOT_TOKEN}`")
