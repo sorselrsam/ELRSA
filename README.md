@@ -7,9 +7,7 @@
     <a href="https://www.python.org/" alt="اللغة المستخدمة"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
 </p>
 ## 🧪الحصول علي جلسة البيوجرام:
-
-[![جلسة بيوجرام]<a href="https://t.me/UUF8Bot"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/UUF8Bot"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
-
+[![جلسة بيوجرام]<a href="https://t.me/UUF8Bot"><img src="https://img.shields.io/badge/Dev%20AFYONa-blue.svg?style=for-the-badge&logo=استخراج جلسه"></a> <a href="https://t.me/UUF8Bot"><img src="https://img.shields.io/badge/استخراج جلسه-blue.svg?style=for-the-badge&logo=جلسه بيروجرام"></a> <a href="https://t.me/UUF8Bot"><img src="https://img.shields.io/badge/جلسه بيروجرام -blue.svg?style=for-the-badge&logo=AFYONA"></a>
 
 ## 𝑺𝑼𝑶𝑹𝑪𝑬 𝑩𝑬𝑴𝑩𝑶
 <p align="center">
