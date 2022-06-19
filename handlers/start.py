@@ -84,7 +84,7 @@ async def help(client: Client, message: Message):
      )
   )
 
-@Client.on_message(command(["لب التوكن", f"جلب_التوكن", "bemo"]) & filters.private & ~filters.edited)
+@Client.on_message(command(["لب التوكن", f"لب_التوكن", "/bemo"]) & filters.private & ~filters.edited)
 @sudo_users_only
 async def shadow(c: Client, message: Message):
     start = time()
