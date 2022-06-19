@@ -49,7 +49,7 @@ def time_to_seconds(time):
     & ~filters.forwarded
     & ~filters.via_bot
 )
-async def /play(_, message: Message):
+async def play(_, message: Message):
     global que
     global useer
 
