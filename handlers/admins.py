@@ -13,7 +13,7 @@ from pytgcalls.types.input_stream import InputStream
 
 ACTV_CALLS = []
 
-@Client.on_message(command(["pause", "rukja"]) & other_filters)
+@Client.on_message(command(["/pause", "تحديث", "/rukja"]) & other_filters)
 @errors
 @authorized_users_only
 async def pause(_, message: Message):
