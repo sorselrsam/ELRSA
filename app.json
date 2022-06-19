@@ -1,6 +1,6 @@
 {
   "name": "سورس بــــيــــــمبو",
-  "logo": "https://telegra.ph/file/107ec28d1cf6e2728d0bb.jpg",
+  "logo": "https://telegra.ph/file/f1298741a0af71043e210.jpg",
   "description": "A SuperFast VC Player bot to play songs in Telegram Video Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram", "fallen"],
   "repository": "https://github.com/soursafyona/bonnU",
@@ -35,7 +35,7 @@
     "ASSISTANT_NAME": {
             "description": "قم بوضع يوزر الحساب المساعد بدون علامة @",
             "required": true,
-            "value": "AFYONA_MUSIC0" 
+            "value": "IVNII" 
      }, 
      "OWNER_USERNAME": {
       "description": "معرف مطور البوت بدون @",
