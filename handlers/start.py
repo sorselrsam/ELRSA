@@ -84,15 +84,6 @@ async def help(client: Client, message: Message):
      )
   )
 
-@Client.on_message(command(["لب التوكن", f"لب_التوكن", "/bemo"]) & filters.private & ~filters.edited)
-@sudo_users_only
-async def shadow(c: Client, message: Message):
-    start = time()
-    m_reply = await message.reply_text("انتظر من فضلك...")
-    BOT_TOKEN = time() - start
-    await m_reply.edit_text(f"**تم جلب التوكن**\n`{BOT_TOKEN}`")
-
-
 @Client.on_message(filters.new_chat_members)
 async def new_chat(c: Client, m: Message):
     chat_id = m.chat.id
