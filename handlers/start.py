@@ -31,7 +31,7 @@ async def start_(client: Client, message: Message):
                     )
                 ],[
                     InlineKeyboardButton(
-                        " 🖥 ¦ الأوامــر ", url=f"https://telegra.ph/%D8%A7%D9%87%D9%84%D8%A7-%D8%A8%D9%83-%D8%A7%D9%88%D8%A7%D9%85%D8%B1-%D8%A7%D9%84%D8%A8%D9%88%D8%AA-%D8%B9%D8%B1%D8%A8%D9%8A%D9%87-06-08"
+                        " 🖥 ¦ الأوامــر ", url=f"https://telegra.ph/%F0%9D%91%BA%F0%9D%91%BC%F0%9D%91%B6%F0%9D%91%B9%F0%9D%91%AA%F0%9D%91%AC-%F0%9D%91%A9%F0%9D%91%AC%F0%9D%91%B4%F0%9D%91%A9%F0%9D%91%B6-06-19"
                     ),
                     InlineKeyboardButton(
                         " 🧨 ¦ مطور السورس ", url="https://t.me/O1BOO"
