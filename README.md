@@ -8,7 +8,8 @@
 </p>
 ## 🧪الحصول علي جلسة البيوجرام:
 
-[![جلسة بيوجرام](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@levinalab/StringSession#main.py) ``TAELR``
+[![جلسة بيوجرام]<a href="https://t.me/UUF8Bot"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/UUF8Bot"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+
 
 ## 𝑺𝑼𝑶𝑹𝑪𝑬 𝑩𝑬𝑴𝑩𝑶
 <p align="center">
