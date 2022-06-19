@@ -12,7 +12,7 @@
 
 ## 𝑺𝑼𝑶𝑹𝑪𝑬 𝑩𝑬𝑴𝑩𝑶
 <p align="center">
-  <img src="https://telegra.ph/file/e68855e3be3191ca84624.jpg">
+  <img src="https://telegra.ph/file/75d743322944576ed41ac.jpg">
 </p>
 
 ## ✨ المميزات
