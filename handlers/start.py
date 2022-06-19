@@ -43,7 +43,7 @@ async def start_(client: Client, message: Message):
 @Client.on_message(command(["برمج السورس", f"ؤمن", f"ورس", f"لسورس", f"ونا", f"افيونا"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/107ec28d1cf6e2728d0bb.jpg",
+        photo=f"https://telegra.ph/file/f1298741a0af71043e210.jpg",
         caption=f""" 𝑺𝑶𝑼𝑹𝑪𝑬 𝑩𝑬𝑴𝑩Θ """,
         reply_markup=InlineKeyboardMarkup(
          [
@@ -91,3 +91,40 @@ async def shadow(c: Client, message: Message):
     m_reply = await message.reply_text("انتظر من فضلك...")
     BOT_TOKEN = time() - start
     await m_reply.edit_text(f"**تم جلب التوكن**\n`{BOT_TOKEN}`")
+
+
+@Client.on_message(filters.new_chat_members)
+async def new_chat(c: Client, m: Message):
+    chat_id = m.chat.id
+    if await is_served_chat(chat_id):
+        pass
+    else:
+        await add_served_chat(chat_id)
+    ass_uname = (await user.get_me()).username
+    bot_id = (await c.get_me()).id
+    for member in m.new_chat_members:
+        if member.id == bot_id:
+            return await m.reply(
+                "🐥 **شكرا لإضافتي إلى مجموعتك لتشغيل الموسيقي!**\n\n"
+                "قم بترقيتي كمسؤول عن المجموعة لكي أتمكن من العمل بشكل صحيح\nولا تنسى كتابة `/انضم او بيمبو تعاله` لدعوة الحساب المساعد\nقم بكتابة`/تحديث` لتحديث قائمة المشرفين",
+                reply_markup=InlineKeyboardMarkup(
+                    [
+                        [
+                            InlineKeyboardButton("⚙️ ¦ السورس ", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                            InlineKeyboardButton("☣️ ¦ جـروب الدعم", url=f"https://t.me/{GROUP_SUPPORT}")
+                        ],
+                        [
+                            InlineKeyboardButton(
+                        ALIVE_NAME, url=f"https://t.me/{ass_uname}"),
+                        ],
+                        [
+                            InlineKeyboardButton(
+                        "🐥اضـفني لي مـجـمـوعـتـك🐥",
+                        url=f'https://t.me/K61TBot?startgroup=true'),
+                        ],
+                    ]
+                )
+            )
+
+
+chat_watcher_group = 5
