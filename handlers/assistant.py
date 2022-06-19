@@ -8,7 +8,7 @@ from callsmusic.callsmusic import client as user
 
 
 @Client.on_message(
-    command(["نضم", "assistant", " انضم" ,"بيمبو تعاله"]) & ~filters.private & ~filters.bot
+    command(["نضم", "/assistant", " انضم" ,"بيمبو تعاله"]) & ~filters.private & ~filters.bot
 )
 @authorized_users_only
 async def join_chat(c: Client, m: Message):
