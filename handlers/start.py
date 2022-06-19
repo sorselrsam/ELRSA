@@ -22,7 +22,7 @@ async def start_(client: Client, message: Message):
                     InlineKeyboardButton(
                         " 🐥اضفني لي مجموعتك🐥 ", url=f"https://t.me/{bu}?startgroup=true"
                     )]
-                       ),
+                       )
                   ],[
                     InlineKeyboardButton(
                         " ⚙️ ¦ السورس ", url=f"https://t.me/B_e_m_0"
