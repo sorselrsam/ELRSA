@@ -49,6 +49,9 @@ async def start(client: Client, message: Message):
          [
             [
                 InlineKeyboardButton("افـ ـيـ ـونـ ـا بــــ ــاشـــ ــا🇪🇬!", url=f"https://t.me/O1BOO"),
+           ],
+            [ 
+                InlineKeyboardButton("نــــــــادر", url=f"https://t.me/Ng_102"),
             ],
             [
                 InlineKeyboardButton(
