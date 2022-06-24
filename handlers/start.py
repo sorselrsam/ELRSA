@@ -14,13 +14,13 @@ async def start_(client: Client, message: Message):
         caption=f"""**━━━━━━━━━━━━━━━━━━
  مرحبا انا بوت يمكنني تشغيل الاغاني في المكالمات الصوتيه
 اضغط على زر الاوامر لمعرفة طريقة التشغيل 
-قناة سورس بـــيـــمبو [قناة السورس](t.me/B_e_m_0)...
+قناة ســـورس جـــــــودزيـــــلا [قناة السورس](t.me/B_e_m_0)...
 ━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        " 🐥اضفني لي مجموعتك🐥 ", url=f"https://t.me/{bu}?startgroup=true"
+                        " اضفني لي مجموعتك ", url=f"https://t.me/{bu}?startgroup=true"
                        ),
                   ],[
                     InlineKeyboardButton(
@@ -40,10 +40,10 @@ async def start_(client: Client, message: Message):
        ),
     )
 
-@Client.on_message(command(["مبرمج السورس" ,"افيونه" ,"سورس" ,"السورس" ,"بيمبو" ,"افيونا"]) & filters.group & ~filters.edited)
+@Client.on_message(command(["مبرمج السورس" ,"افيونه" ,"سورس" ,"السورس" ,"نادر" ,"جودزيلا" ,"افيونا"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/f1298741a0af71043e210.jpg",
+        photo=f"https://telegra.ph/file/390d078bddeb22f38c69b.jpg",
         caption=f""" 𝑺𝑶𝑼𝑹𝑪𝑬 𝑩𝑬𝑴𝑩Θ """,
         reply_markup=InlineKeyboardMarkup(
          [
@@ -55,20 +55,20 @@ async def start(client: Client, message: Message):
             ],
             [
                 InlineKeyboardButton(
-                    "𝑩𝑬𝑴𝑩Θ 𝐌𝐔𝐒𝐈𝐂🐥", url=f"https://t.me/B_e_m_0"
+                    "𝗦𝗨𝗢𝗥𝗖𝗘 𝗚𝗢𝗗𝗭𝗘𝗟ł𝗔᷂᷂🦖", url=f"https://t.me/B_e_m_0"
                 ),
             ],
             [
-                InlineKeyboardButton("🐥اضف البوت الى مجموعتك🐥", url=f"https://t.me/K61TBot?startgroup=true"),
+                InlineKeyboardButton("🐥اضفني الى مجموعتك🐥", url=f"https://t.me/K61TBot?startgroup=true"),
             ]
          ]
      )
   )
 
-@Client.on_message(command(["المطور", "/pempo", "مطور" ,"مطور البوت"]) & filters.group & ~filters.edited)
+@Client.on_message(command(["المطور", "/godzela", "مطور" ,"مطور البوت"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/f1298741a0af71043e210.jpg",
+        photo=f"https://telegra.ph/file/390d078bddeb22f38c69b.jpg",
         caption=f""" الاول: هو مطور السورس🐥 \n الثاني: مطور البوت🐥 \n√""",
         reply_markup=InlineKeyboardMarkup(
          [
