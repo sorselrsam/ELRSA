@@ -44,7 +44,7 @@ async def start_(client: Client, message: Message):
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/390d078bddeb22f38c69b.jpg",
-        caption=f""" 𝑺𝑶𝑼𝑹𝑪𝑬 𝑩𝑬𝑴𝑩Θ """,
+        caption=f""" [⍟ 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝚐𝚘𝚍𝚣𝚎𝚕ł𝚊](t.me/B_e_m_0)  """,
         reply_markup=InlineKeyboardMarkup(
          [
             [
