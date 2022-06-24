@@ -1,4 +1,4 @@
-<h1 align="center"><b>𝑺𝑼𝑶𝑹𝑪𝑬 𝑩𝑬𝑴𝑩𝑶🐥</b></h1>
+<h1 align="center"><b>𝗦𝗨𝗢𝗥𝗖𝗘 𝗚𝗢𝗗𝗭𝗘𝗟ł𝗔᷂᷂🦖</b></h1>
 
 <p align="center">
     <br><b>يدعم تشغيل الموسيقي والفديو داخل المحادثات الصوتية</b><br>
@@ -9,9 +9,9 @@
 ## 🧪الحصول علي جلسة البيوجرام:
 [![جلسة بيوجرام]<a href="https://t.me/UUF8Bot"><img src="https://img.shields.io/badge/Dev%20AFYONa-blue.svg?style=for-the-badge&logo=استخراج جلسه"></a> <a href="https://t.me/UUF8Bot"><img src="https://img.shields.io/badge/استخراج جلسه-blue.svg?style=for-the-badge&logo=جلسه بيروجرام"></a> <a href="https://t.me/UUF8Bot"><img src="https://img.shields.io/badge/جلسه بيروجرام -blue.svg?style=for-the-badge&logo=AFYONA"></a>
 
-## 𝑺𝑼𝑶𝑹𝑪𝑬 𝑩𝑬𝑴𝑩𝑶
+## 𝗦𝗨𝗢𝗥𝗖𝗘 𝗚𝗢𝗗𝗭𝗘𝗟ł𝗔 
 <p align="center">
-  <img src="https://telegra.ph/file/f1298741a0af71043e210.jpg">
+  <img src="https://telegra.ph/file/390d078bddeb22f38c69b.jpg">
 </p>
 
 ## ✨ المميزات
