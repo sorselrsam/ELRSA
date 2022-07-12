@@ -47,7 +47,12 @@
       "required": false,
       "value": "UUBU0"
     },
-    "SUDO_USERS": {
+     "UPDATES_CHANNEL": {
+      "description": "معرف قناتك بدون @",
+       "required": false,
+       "value": "B_e_m_0"
+     }, 
+     "SUDO_USERS": {
       "description": "ضع ايدي بتاعك",
       "required": true,
       "value": "5520469387"
