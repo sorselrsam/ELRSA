@@ -49,7 +49,7 @@
     },
      "UPDATES_CHANNEL": {
       "description": "معرف قناتك بدون @",
-       "required": false,
+       "required": true,
        "value": "B_e_m_0"
      }, 
      "SUDO_USERS": {
