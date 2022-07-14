@@ -205,8 +205,8 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(" ☣️ ¦ الدعم ", url=f"https://t.me/{SUPPORT_GROUP}"),
-                    InlineKeyboardButton(" 🧨 ¦ قناة السـورس ", url=f"https://t.me/B_e_m_0")
-                ],
+                    InlineKeyboardButton ( "🧨 ¦ قناة السـورس" ، url = f "https://t.me/E_L_R_A_S_A_M" )
+                ],_m_0")
                 [InlineKeyboardButton(" ⚙️ ¦ اخفاء ", callback_data="close_play")
                 ],
             ]
