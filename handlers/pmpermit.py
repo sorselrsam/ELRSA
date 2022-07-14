@@ -18,7 +18,7 @@ async def pmPermit(client: USER, message: Message):
                 return
             await USER.send_message(
                 message.chat.id,
-                f"ʜᴇʏ {message.from_user.mention()},\nᴛʜɪs ɪs [{bn}](t.me/{lel}) ʙᴏᴛ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ.\n\nᴅᴏɴ'ᴛ ᴛʀʏ ᴛᴏ sᴘᴀᴍ ʜᴇʀᴇ ᴇʟsᴇ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ꜰᴜ*ᴋᴇᴅ ʙʏ [𝑺𝑼𝑶𝑹𝑪𝑬 𝑩𝑬𝑴𝑩𝑶](t.me/B_e_m_0).\n",
+                f"ʜᴇʏ {message.from_user.mention()},\nᴛʜɪs ɪs [{bn}](t.me/{lel}) ʙᴏᴛ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ.\n\nᴅᴏɴ'ᴛ ᴛʀʏ ᴛᴏ sᴘᴀᴍ ʜᴇʀᴇ ᴇʟsᴇ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ꜰᴜ*ᴋᴇᴅ ʙʏ [𝑺𝑼𝑶𝑹𝑪𝑬 ELRASAM](t.me/E_L_R_A_S_A_M).\n",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -26,11 +26,11 @@ async def pmPermit(client: USER, message: Message):
                         " 🐥 ¦ ᵇᵒᵗ ᵇᵉᵐᵇᵒ ", url=f"https://t.me/{lel}"
                     ),
                     InlineKeyboardButton(
-                        " 🦦 ¦ جـروب الدعم ", url="https://t.me/UUBU0"
+                        " 🦦 ¦ جـروب الدعم ", url="https://t.me/ELRASRM"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        " ☢️ ¦قناة البوت ", url=f"https://t.me/B_e_m_0"
+                        " ☢️ ¦قناة البوت ", url=f"https://t.me/E_L_R_A_S_A_M"
                     )]
             ]
         ),
