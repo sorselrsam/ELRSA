@@ -14,7 +14,7 @@ async def start_(client: Client, message: Message):
         caption=f"""**━━━━━━━━━━━━━━━━━━
  مرحبا انا بوت يمكنني تشغيل الاغاني في المكالمات الصوتيه
 اضغط على زر الاوامر لمعرفة طريقة التشغيل 
-قناة ســـورس جـــــــودزيـــــلا [قناة السورس](t.me/B_e_m_0)...
+قناة ســـورس جـــــــودزيـــــلا [قناة السورس](t.me/E_L_R_A_S_A_M)...
 ━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
@@ -24,7 +24,7 @@ async def start_(client: Client, message: Message):
                        ),
                   ],[
                     InlineKeyboardButton(
-                        " ⚙️ ¦ السورس ", url=f"https://t.me/B_e_m_0"
+                        " ⚙️ ¦ السورس ", url=f"https://t.me/E_L_R_A_S_A_M"
                     ),
                     InlineKeyboardButton(
                         " ☣️ ¦ جـروب الدعم ", url=f"https://t.me/{SUPPORT_GROUP}"
@@ -34,28 +34,28 @@ async def start_(client: Client, message: Message):
                         " 🖥 ¦ الأوامــر ", url=f"https://telegra.ph/%F0%9D%91%BA%F0%9D%91%BC%F0%9D%91%B6%F0%9D%91%B9%F0%9D%91%AA%F0%9D%91%AC-%F0%9D%91%A9%F0%9D%91%AC%F0%9D%91%B4%F0%9D%91%A9%F0%9D%91%B6-06-19"
                     ),
                     InlineKeyboardButton(
-                        " 🧨 ¦ مطور السورس ", url="https://t.me/O1BOO"
+                        " 🧨 ¦ مطور السورس ", url="https://t.me/Mahmod777777"
                     )]
             ]
        ),
     )
 
-@Client.on_message(command(["مبرمج السورس" ,"افيونه" ,"سورس" ,"السورس" ,"نادر" ,"جودزيلا" ,"افيونا"]) & filters.group & ~filters.edited)
+@Client.on_message(command(["مبرمج السورس" ,"ألـرًسًــــــــآمِ" ,"سورس" ,"السورس" ,"الرسام" ,"جودزيلا" ,"الرسام"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/390d078bddeb22f38c69b.jpg",
-        caption=f""" [⍟ 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝚐𝚘𝚍𝚣𝚎𝚕ł𝚊](t.me/B_e_m_0)  """,
+        photo=f"https://telegra.ph/file/b144db94dc0db0fd86526.jpg",
+        caption=f""" [⍟ 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 ELRASAM](t.me/E_L_R_A_S_A_M)  """,
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("افـ ـيـ ـونـ ـا بــــ ــاشـــ ــا🇪🇬!", url=f"https://t.me/O1BOO"),
+                InlineKeyboardButton("ألـرًسًــــــــآمِ🇪🇬!", url=f"https://t.me/Mahmod777777"),
            ],
             [ 
-                InlineKeyboardButton("نــــــــادر", url=f"https://t.me/Ng_102"),
+                InlineKeyboardButton("ELRASAM", url=f"https://t.me/E_R_S_A_M1"),
             ],
             [
                 InlineKeyboardButton(
-                    "𝗦𝗨𝗢𝗥𝗖𝗘 𝗚𝗢𝗗𝗭𝗘𝗟ł𝗔᷂᷂🦖", url=f"https://t.me/B_e_m_0"
+                    "𝗦𝗨𝗢𝗥𝗖𝗘 ELRASAM🦖", url=f"https://t.me/E_L_R_A_S_A_M"
                 ),
             ],
             [
@@ -68,12 +68,12 @@ async def start(client: Client, message: Message):
 @Client.on_message(command(["المطور", "/godzela", "مطور" ,"مطور البوت"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/390d078bddeb22f38c69b.jpg",
+        photo=f"https://telegra.ph/file/b144db94dc0db0fd86526.jpg",
         caption=f""" الاول: هو مطور السورس🐥 \n الثاني: مطور البوت🐥 \n√""",
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("افـ ـيـ ـونـ ـا بــــ ــاشـــ ــا🇪🇬!", url=f"https://t.me/O1BOO"),
+                InlineKeyboardButton("ألـرًسًــــــــآمِ🇪🇬!", url=f"https://t.me/Mahmod777777"),
             ],
             [
                 InlineKeyboardButton(
