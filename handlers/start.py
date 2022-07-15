@@ -14,7 +14,7 @@ async def start_(client: Client, message: Message):
         caption=f"""**━━━━━━━━━━━━━━━━━━
  مرحبا انا بوت يمكنني تشغيل الاغاني في المكالمات الصوتيه
 اضغط على زر الاوامر لمعرفة طريقة التشغيل 
-قناة ســـورس جـــــــودزيـــــلا [قناة السورس](t.me/E_L_R_A_S_A_M)...
+قناة ســـورس ألـرًسًــــــــآمِ [قناة السورس](t.me/E_L_R_A_S_A_M)...
 ━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
@@ -43,7 +43,7 @@ async def start_(client: Client, message: Message):
 @Client.on_message(command(["مبرمج السورس" ,"ألـرًسًــــــــآمِ" ,"سورس" ,"السورس" ,"الرسام" ,"جودزيلا" ,"الرسام"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/b144db94dc0db0fd86526.jpg",
+        photo=f"https://telegra.ph/file/cc9d3ab087176593ec101.jpg",
         caption=f""" [⍟ 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 ELRASAM](t.me/E_L_R_A_S_A_M)  """,
         reply_markup=InlineKeyboardMarkup(
          [
