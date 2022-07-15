@@ -157,7 +157,7 @@ async def play(_, message: Message):
             return await fallen.edit(
                 "عليك كتابة اسم الاغنيه او الرد ع ملف صوتي"
             )
-        await fallen.edit("⚡")
+        انتظر  سقطت . تحرير ( "🎵" )
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
