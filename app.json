@@ -16,7 +16,7 @@
     },
     "BOT_NAME": {
       "description":" معرف بوتك @",
-      "required": "Elrasam11111bot"
+      "required": false,
       "value": ""
     },
     "BOT_USERNAME": {
@@ -35,27 +35,27 @@
     "ASSISTANT_NAME": {
             "description": "قم بوضع يوزر الحساب المساعد بدون علامة @",
             "required": true,
-            "value": "E_R_S_A_M1" 
+            "value": "IVNII" 
      }, 
      "OWNER_USERNAME": {
       "description": "معرف مطور البوت بدون @",
       "required": false,
-      "value": "Mahmod777777"
+      "value": "O1BOO"
     },
     "SUPPORT_GROUP": {
       "description": "معرف جروبك بدون @",
       "required": false,
-      "value": "ELRASRM"
+      "value": "UUBU0"
     },
      "UPDATES_CHANNEL": {
       "description": "معرف قناتك بدون @",
        "required": true,
-       "value": "E_L_R_A_S_A_M"
+       "value": "B_e_m_0"
      }, 
      "SUDO_USERS": {
       "description": "ضع ايدي بتاعك",
       "required": true,
-      "value": "2125600195"
+      "value": "5520469387"
     },
     "START_IMG": {
       "description": "ضع صورة البوت مره تانيه",
