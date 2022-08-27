@@ -52,14 +52,14 @@ async def start(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("ألـرًسًــــــــآمِ🇪🇬!", url=f"https://t.me/Mahmod777777"),
+                InlineKeyboardButton("𝐸𝐿𝑅𝐴𝑆𝐴𝑀", url=f"https://t.me/Mahmod777777"),
            ],
             [ 
-                InlineKeyboardButton("ELRASAM", url=f"https://t.me/E_R_S_A_M1"),
+                InlineKeyboardButton("ِِتــــربّـــــــوُ", url=f"https://t.me/A7A_BGAAD"),
             ],
             [
                 InlineKeyboardButton(
-                    "𝗦𝗨𝗢𝗥𝗖𝗘 ELRASAM🦖", url=f"https://t.me/E_L_R_A_S_A_M"
+                    "𝑆𝑂𝐔𝑅𝐶𝐸 𝐸𝐿𝑅𝐴𝑆𝐴𝑀 ’⚡", url=f"https://t.me/E_L_R_A_S_A_M"
                 ),
             ],
             [
@@ -77,7 +77,7 @@ async def help(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("ألـرًسًــــــــآمِ🇪🇬!", url=f"https://t.me/Mahmod777777"),
+                InlineKeyboardButton("𝐸𝐿𝑅𝐴𝑆𝐴𝑀", url=f"https://t.me/Mahmod777777"),
             ],
             [
                 InlineKeyboardButton(
