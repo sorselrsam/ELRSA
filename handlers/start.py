@@ -11,13 +11,13 @@ async def start_(client: Client, message: Message):
     await message.delete()
     await message.reply_photo(
         photo=f"{START_IMG}",
-        caption=f"""**━━━━━━━━━━━━━━━━━━
-💥 اهلا بك اختصاص هذا البوت 
-تشغيل الاغاني في المكالمات الصوتية » 
-لمعرفة الاوامر عليك النقر على زر الاوامر
-قناة ســـورس ألـرًسًــــــــآمِ [قناة السورس](t.me/E_L_R_A_S_A_M)...
-━━━━━━━━━━━━━━━━━━**""",
-    reply_markup=InlineKeyboardMarkup(
+        caption=f"""** ╭──── • ⍟ • ────╮
+⌁ [𝑆𝑂𝐔𝑅𝐶𝐸 𝐸𝐿𝑅𝐴𝑆𝐴𝑀 ’]⚡(t.me/EL_RASA)
+⌁ [𝐴𝑆𝐾 𝑇𝑂 𝑀𝑌 ’]⚡(t.me/ELRSAM11)
+⌁ [𝐸𝐿𝑅𝐴𝑆𝐴𝑀 ’]⚡(@Mahmod777777)
+╰──── • ⍟ • ────╯
+⍟ 𝚃𝙷𝙴 𝙱𝙴𝚂𝚃 𝚂𝙾𝚄𝚁𝙲𝙴 𝙾𝙽 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼.**""",
+   reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
@@ -44,8 +44,13 @@ async def start_(client: Client, message: Message):
 @Client.on_message(command(["مبرمج السورس" ,"ألـرًسًــــــــآمِ" ,"سورس" ,"السورس" ,"الرسام" ,"جودزيلا" ,"الرسام"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/2343edae57a737cfabf75.mp4",
-        caption=f""" [⍟ 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 ELRASAM](t.me/E_L_R_A_S_A_M)  """,
+        photo=f"https://telegra.ph/file/ee7f3d01f1ad82d5b8aae.jpg",
+        caption=f""" ╭──── • ⍟ • ────╮
+⌁ [𝑆𝑂𝐔𝑅𝐶𝐸 𝐸𝐿𝑅𝐴𝑆𝐴𝑀 ’]⚡(t.me/EL_RASA)
+⌁ [𝐴𝑆𝐾 𝑇𝑂 𝑀𝑌 ’]⚡(t.me/ELRSAM11)
+⌁ [𝐸𝐿𝑅𝐴𝑆𝐴𝑀 ’]⚡(@Mahmod777777)
+╰──── • ⍟ • ────╯
+⍟ 𝚃𝙷𝙴 𝙱𝙴𝚂𝚃 𝚂𝙾𝚄𝚁𝙲𝙴 𝙾𝙽 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼. """,
         reply_markup=InlineKeyboardMarkup(
          [
             [
