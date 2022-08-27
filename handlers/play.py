@@ -55,7 +55,7 @@ async def play(_, message: Message):
 
     await message.delete()
 
-    fallen = await message.reply("يتم التحميل \ \ n \ n 0٪ ▓▓▓▓▓▓🏆▓▓▓▓▓▓ 100٪" )
+    fallen = await message.reply("يتم التحميل \ \ n \ n 0٪ ▓▓▓▓▓▓🐥▓▓▓▓▓▓ 100٪" )
 
 
     chumtiya = message.from_user.mention
@@ -200,8 +200,8 @@ async def play(_, message: Message):
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) in ACTV_CALLS:
         position = await queues.put(chat_id, file=file_path)
-        await message.reply_text (
-               text=f"💡 **تمت الاضافة ال قائمة التشغيل** `#{pos}`\n\n🏷 ** العنوان** [{songname}]({url})\n**⏱ المدة** `{duration}`\n🎧 **بطلب من ** {from_user",
+        await message.reply_text(
+               text=f"**ㅤㅤㅤ» 🇪🇬 تم التشغيل يانجم «**\n🏆 **الاسم​:** [{title[:65]}]({url})\n🕕 **عدد دقائق:** `{duration}` الاغنية\n🐍 **مطلوبة بواسطة​:** {chumtiya}\n🤵 **الدردشة​:** `{message.chat.title}`\n🦂 **نوع التشغيل:** موسيقى\n",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -226,7 +226,7 @@ async def play(_, message: Message):
             )
 
         await message.reply_text(
-            text=f"**🏷 ** العنوان** [{songname}]({url})\n**⏱ المدة** `{duration}`\n💡 **الحالة:** شغالة الان\n🎧 **بطلب من ** {from_user}",
+            text=f"**ㅤㅤㅤ» تم التشغيل «**\n🏆 **الاسم​:** [{title[:65]}]({url})\n🕕 **عدد دقائق:** `{duration}` الاغنية\n🐍 **مطلوبة بواسطة​:** {chumtiya}\n🤵 **الدردشة​:** `{message.chat.title}`\n🦂 **نوع التشغيل:** موسيقى\n",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
