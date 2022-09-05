@@ -14,7 +14,7 @@ async def start_(client: Client, message: Message):
         caption=f"""** 
 •═════•| 𝙻𝚞𝚛𝚊 |•═════•
 
-↯ انا بوت اسميالتونز.
+↯ مِـرحًبّـآفــي سًــــــــوُرسُ ★𝙀ٍ𝙇ٓ𝙍َٰ𝘼َٰ𝙎َٰ𝘼ِّّ𝙈 𝘼ٍ𝙇ٍ𝙏ٍَ𝙒𝙄ٍَ𝙉َٰ𝙎★.
 
 ↯ اختصاصي تشغيل الاغاني والفديوهات في المكالمات  .
 
@@ -50,7 +50,7 @@ async def start_(client: Client, message: Message):
        ),
     )
 
-@Client.on_message(command(["مبرمج السورس" ,"ألـرًسًــــــــآمِ" ,"سورس" ,"السورس" ,"الرسام" ,"فتحي" ,"الرسام"]) & filters.group & ~filters.edited)
+@Client.on_message(command(["مبرمج السورس" ,"التونز" ,"سورس" ,"السورس" ,"الرسام" ,"فتحي" ,"الرسام"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/acae0835566e4bf77c220.jpg",
