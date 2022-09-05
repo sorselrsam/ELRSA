@@ -53,7 +53,7 @@ async def start_(client: Client, message: Message):
 @Client.on_message(command(["مبرمج السورس" ,"التونز" ,"سورس" ,"السورس" ,"الرسام" ,"فتحي" ,"الرسام"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/acae0835566e4bf77c220.jpg",
+        photo=f"https://telegra.ph/file/97e8e69240e6ee5dae74f.jpg",
         caption=f""" ╭──── • ⍟ • ────╮
 ⌁ [𝑆𝑂𝐔𝑅𝐶𝐸 𝐸𝐿𝑅𝐴𝑆𝐴𝑀 ’⚡](t.me/EL_RASA)
 ⌁ [𝐴𝑆𝐾 𝑇𝑂 𝑀𝑌 ’⚡](https://t.me/ELRSAM11)

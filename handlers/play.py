@@ -55,7 +55,8 @@ async def play(_, message: Message):
 
     await message.delete()
 
-    fallen = await message.reply("يتم التحميل \n\https://telegra.ph/file/6e65d72a52c1d987bcf68.mp4")
+    fallen = await message.reply("يتم التحميل \ \ n \ n 0٪ ▓▓▓▓▓▓🐥▓▓▓▓▓▓ 100٪" )
+
 
     chumtiya = message.from_user.mention
 
@@ -157,7 +158,7 @@ async def play(_, message: Message):
             return await fallen.edit(
                 "عليك كتابة اسم الاغنيه او الرد ع ملف صوتي"
             )
-        await fallen.edit("https://telegra.ph/file/6e65d72a52c1d987bcf68.mp4")
+        await fallen.edit("⚡")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
