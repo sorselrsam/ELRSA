@@ -1,79 +1,66 @@
 {
-  "name": "سورس الرسام",
-  "logo": "https://telegra.ph/file/ee7f3d01f1ad82d5b8aae.jpg",
-  "description": "A SuperFast VC Player bot to play songs in Telegram Video Chat. Powered by PyTgCalls.",
-  "keywords": ["music", "voicechat", "telegram", "fallen"],
-  "repository": "https://github.com/sorselrsam/ELRSAM.git",
-  "stack": "container",
+  "name": "𝙎𝙊𝙐𝙍𝘾𝙀 𝑺𝑰𝑴𝑩𝑨",
+  "description": "تنصيب سورس سمبا الاصلي معرف قناتنا https://t.me/EL_RASA",
+  "logo": "https://telegra.ph/file/21adb47fcfe3f1218f522.jpg",
+  "keywords": [    "plugin",    "modular",    "productivity"  ],
+  "repository": "https://github.com/ERTWF/cobra",
+  "website": "#TODO",
+  "success_url": "#TODO",
   "env": {
-    "SESSION_NAME": {
-      "description": "ضع كود بايروجرام",
-      "required": true
+    "ALIVE_NAME": {
+      "description": "ضع اسمك الذي في تليجرام",
+      "value": ""
     },
-    "BOT_TOKEN": {
-      "description": "ضع توكن بوتك يا قلبي",
-      "required": true
-    },
-    "BOT_NAME": {
-      "description":" معرف بوتك @",
-      "required": false,
-      "value": "Elrasam11111bot"
-    },
-    "BOT_USERNAME": {
-      "description": " معرف بوتك مره تانيه بدون @",
-      "required": false,
-      "value": "Elrasam11111bot"
-    },
-    "API_ID": {
-      "description": "ايبي ايدي ضع هنا my.telegram.org/apps",
-      "required": false
+    "APP_ID": {
+      "description": "ضع الايبي ايدي هنا",
+      "value": ""
     },
     "API_HASH": {
-      "description": "ايبي هاش ضع هنا my.telegram.org/apps",
+      "description": "ضع الايبي هاش هنا",
+      "value": ""
+    },
+    "STRING_SESSION": {
+      "description": "ضع كود تيرمكس هنا",
+      "value": ""
+    },
+    "TG_BOT_USERNAME": {
+      "description": " ضع معرف البوت هنا",
+      "value": ""
+    },
+    "TG_BOT_TOKEN": {
+      "description": "ضع توكن البوت هنا",
+      "value": ""
+    },
+    "TZ": {
+      "description": " الوقت",
+      "value": "Asia/Baghdad",
       "required": false
     },
-    "ASSISTANT_NAME": {
-            "description": "قم بوضع يوزر الحساب المساعد بدون علامة @",
-            "required": true,
-            "value": "E_R_S_A_M1" 
-     }, 
-     "OWNER_USERNAME": {
-      "description": "معرف مطور البوت بدون @",
-      "required": false,
-      "value": "Mahmod777777"
-    },
-    "SUPPORT_GROUP": {
-      "description": "معرف جروبك بدون @",
-      "required": false,
-      "value": "ELRSAM11"
-    },
-     "UPDATES_CHANNEL": {
-      "description": "معرف قناتك بدون @",
-       "required": true,
-       "value": "EL_RASA"
-     }, 
-     "SUDO_USERS": {
-      "description": "ضع ايدي بتاعك",
-      "required": true,
-      "value": "2125600195"
-    },
-    "START_IMG": {
-      "description": "ضع صورة البوت مره تانيه",
+    "UPSTREAM_REPO": {
+      "description": "لاتـغيره! ",
+      "value": "https://github.com/source56/COBRA",
       "required": false
-    },
-    "PING_IMG": {
-      "description": "ضع صورة البوت",
-      "required": false
-    },
-    "PMPERMIT": {
-      "description": "لا تغيرها",
-      "required": false,
-      "value": "ENABLE"
-    },
-    "DURATION_LIMIT": {
-      "description": "لا تغيرها",
-      "required": false,
-      "value": "90"
     }
-  }
+  },
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "12"
+    }
+  }],
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
+  },{
+    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+  },{
+    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+  },{
+    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+  },{
+    "url": "heroku/python"
+  }]
 }
