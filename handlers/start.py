@@ -14,10 +14,10 @@ async def start_(client: Client, message: Message):
         caption=f"""** 
 ╭────── • ◈ • ──────╮
 么 [𝙴𝙻𝚁𝙰𝚂𝙰𝙼](t.me/Mahmod777777)
+
 么 [𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝙻𝚁𝙰𝚂𝙰𝙼](https://t.me/ELRSAM11)
-么 [𝚃𝚄𝚁𝙱𝙾](t.me/A7A_BGAAD)
-么  [𝙰𝙻𝚃𝚆𝙸𝙽𝚂](t.me/FATHY616)
-么 [ᖇꪔᥲ️ᘔᎥᥲ️ƚ ᥱᥣᖇᥲ️᥉ᥲ️ꪔ❶💕🇨🇵](https://t.me/E_L_R_A_S_A_M)
+
+么 [𝚃𝙷𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻](https://t.me/E_L_R_A_S_A_M)
 ╰────── • ◈ • ──────╯
 ⍟ 𝚃𝙷𝙴 𝙱𝙴𝚂𝚃 𝚂𝙾𝚄𝚁𝙲𝙴 𝙾𝙽 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼**""",
    reply_markup=InlineKeyboardMarkup(
@@ -28,7 +28,7 @@ async def start_(client: Client, message: Message):
                        ),
                   ],[
                     InlineKeyboardButton(
-                        " ⚙️ ¦ السورس ", url=f"https://t.me/EL_RASA"
+                        " ⚙️ ¦ السورس ", url=f"https://t.me/ELRSAM11"
                     ),
                     InlineKeyboardButton(
                         " ☣️ ¦ جـروب الدعم ", url=f"https://t.me/{SUPPORT_GROUP}"
@@ -44,17 +44,17 @@ async def start_(client: Client, message: Message):
        ),
     )
 
-@Client.on_message(command(["مبرمج السورس" ,"التونز" ,"سورس" ,"السورس" ,"الرسام" ,"تربو" ,"الرسام"]) & filters.group & ~filters.edited)
+@Client.on_message(command(["مبرمج السورس" ,"سورس" ,"سورس" ,"السورس" ,"الرسام" ,"سورس" ,"الرسام"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/2ef137bfee167f549257b.jpg",
         caption=f""" 
-•═════•| [𝙀ٍ𝙇ٓ𝙍َٰ𝘼َٰ𝙎َٰ𝘼ِّّ𝙈](https://t.me/EL_RASA) |•═════•
+•═════•| [𝙀ٍ𝙇ٓ𝙍َٰ𝘼َٰ𝙎َٰ𝘼ِّّ𝙈](https://t.me/ELRSAM11) |•═════•
 ⌁么 [𝙴𝙻𝚁𝙰𝚂𝙰𝙼](t.me/Mahmod777777)
+
 么 [𝚂𝙾𝚄𝚁𝙲𝙴 𝙴𝙻𝚁𝙰𝚂𝙰𝙼](https://t.me/ELRSAM11)
-么 [𝚃𝚄𝚁𝙱𝙾](t.me/A7A_BGAAD)
-么  [𝙰𝙻𝚃𝚆𝙸𝙽𝚂](t.me/FATHY616)
-么 [ᖇꪔᥲ️ᘔᎥᥲ️ƚ ᥱᥣᖇᥲ️᥉ᥲ️ꪔ❶💕🇨🇵](https://t.me/E_L_R_A_S_A_M)
+
+么 [𝚃𝙷𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻](https://t.me/E_L_R_A_S_A_M)
 •═════•|  [𝙀ٍ𝙇ٓ𝙍َٰ𝘼َٰ𝙎َٰ𝘼ِّّ𝙈](https://t.me/ELRSAM11) |•═════•""",
         reply_markup=InlineKeyboardMarkup(
          [
@@ -62,11 +62,11 @@ async def start(client: Client, message: Message):
                 InlineKeyboardButton("𝙴𝙻𝚁𝙰𝚂𝙰𝙼", url=f"https://t.me/Mahmod777777"),
            ],
             [
-                InlineKeyboardButton("ِِ𝙰𝙻𝚃𝚆𝙸𝙽𝚂", url=f"https://t.me/FATHY616"),
+                InlineKeyboardButton("ِِالحساب المساعد", url=f"https://t.me/E_R_S_A_M1"),
             ],
             [
                 InlineKeyboardButton(
-                    "𝚃𝚄𝚁𝙱𝙾", url=f"https://t.me/A7A_BGAAD"
+                    "بوت السورس", url=f"https://t.me/Elrasam11111bot"
                 ),
             ],
             [
@@ -76,7 +76,7 @@ async def start(client: Client, message: Message):
      )
   )
 
-@Client.on_message(command(["المطور", "/godzela", "مطور" ,"مطور البوت"]) & filters.group & ~filters.edited)
+@Client.on_message(command(["المطور", "/elrasam", "مطور" ,"مطور البوت"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/b144db94dc0db0fd86526.jpg",
